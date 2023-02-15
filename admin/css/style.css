@@ -122,7 +122,7 @@ table tr th { color: #688a7e;}
 
 .lite{
 
-    color: #00a0df !important;
+    color: #0baa0f !important;
 
 }
 
@@ -168,7 +168,7 @@ table tr th { color: #688a7e;}
 
 .login-img3-body{
 
-  background: url('../img/bg-1.jpg') no-repeat center center fixed;
+  background: url('../img/bg-1.png') no-repeat center center fixed;
 
   -webkit-background-size: cover;
 
@@ -215,6 +215,8 @@ table tr th { color: #688a7e;}
 .login-img3-body .login-form{
 
     border: 1px solid #B0B6BE;
+
+    border-radius: 10px;
 
     background: rgba(213,215,222,0.9);
 
@@ -382,7 +384,7 @@ table tr th { color: #688a7e;}
 
 .login-img3-body .login-form p,.login-img2-body .login-form p {
 
-    color: #34aadc;
+    color: #020e84;
 
 }
 
@@ -1054,7 +1056,7 @@ a.logo {
 
     font-weight: 300;
 
-    color: #fed189;
+    color: #fff;
 
     float: left;
 

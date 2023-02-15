@@ -45,8 +45,8 @@ $result=($page-1)*$post_per_page;
 <div class="card mb-3" style="max-width: 800px;">
 <a href="post.php?id=<?=$post['id']?>" style="text-decoration:none;color:black">
             <div class="row g-0">
-              <div class="col-md-5" style="background-image: url('images/<?=getPostThumb($db,$post['id'])?>');background-size: cover">
-                <!-- <img src="https://images.moneycontrol.com/static-mcnews/2020/04/stock-in-the-news-770x433.jpg" alt="..."> -->
+              <div class="col-md-5" style="background-image: url('images/<?=getPostThumb($db,$post['id'])?>');background-repeat: no-repeat">
+                <!-- <img src=""> -->
               </div>
               <div class="col-md-7">
                 <div class="card-body">

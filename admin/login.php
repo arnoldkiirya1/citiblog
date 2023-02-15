@@ -26,12 +26,13 @@ if(mysqli_num_rows($runQuery)){
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
+  <meta name="description" content="">
   <meta name="author" content="GeeksLabs">
-  <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
-  <link rel="shortcut icon" href="img/favicon.png">
+  <meta name="keyword" content="Blog, CITI, Training">
+  <link rel="icon" href="img/favicon.png">
 
-  <title>MyBlog - Admin Panel</title>
+  <title>CITI Blog Admin</title>
+  
 
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -87,7 +88,7 @@ if(mysqli_num_rows($runQuery)){
             Licensing information: https://bootstrapmade.com/license/
             Purchase the pro version form: https://bootstrapmade.com/buy/?theme=NiceAdmin
           -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by <a href="https://citi.ac.ug">CITI</a>
         </div>
     </div>
   </div>

@@ -17,7 +17,7 @@ $admin=getAdminInfo($db,$_SESSION['email']);
   <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
   <link rel="shortcut icon" href="img/favicon.png">
 
-  <title>MyBlog - Admin Panel</title>
+  <title>CITI Blog | Admin Panel</title>
 
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -61,7 +61,7 @@ $admin=getAdminInfo($db,$_SESSION['email']);
       </div>
 
       <!--logo start-->
-      <a href="index.php" class="logo">Nice <span class="lite">Admin</span></a>
+      <a href="index.php" class="logo">CITI <span class="lite">Blog Admin</span></a>
    
 
       <div class="top-nav notification-row">
@@ -80,7 +80,7 @@ $admin=getAdminInfo($db,$_SESSION['email']);
           <li class="dropdown">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="profile-ava">
-                                <img alt="" src="img/avatar1_small.jpg">
+                                <img alt="" src="img/avatar-admin.png">
                             </span>
                     
                             <span class="username"><?=$admin['full_name']?></span>
@@ -89,7 +89,7 @@ $admin=getAdminInfo($db,$_SESSION['email']);
             <ul class="dropdown-menu extended logout">
               <div class="log-arrow-up"></div>
               <li class="eborder-top">
-                <a href="#"><i class="icon_profile"></i> My Account</a>
+                <!-- <a href="E"><i class="icon_profile"></i> My Account</a> -->
               </li>
               <li>
                 <a href="../includes/logout.php"><i class="icon_key_alt"></i> Log Out</a>
@@ -121,12 +121,12 @@ $admin=getAdminInfo($db,$_SESSION['email']);
                           <span>Manage Post</span>
                       </a>
           </li>
-          <li class="active">
-            <a class="" href="index.html">
+          <!-- <li class="active">
+            <a class="" href="index.php?managecomments">
                           <i class="icon_house_alt"></i>
                           <span>Manage Comments</span>
                       </a>
-          </li>
+          </li> -->
           <li class="active">
             <a class="" href="index.php?managecategory">
                           <i class="icon_house_alt"></i>

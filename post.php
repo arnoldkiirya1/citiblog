@@ -9,7 +9,8 @@ require('includes/function.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <title>Blog</title>
+    <title>CITI | Blog</title>
+    <link href="images/favicon.png" rel="icon">
 </head>
 <body>
    <?php include_once('includes/navbar.php'); ?>
@@ -80,7 +81,7 @@ foreach($post_images as $image){
 
                   <p class="card-text"><?=$post['content']?>
                   </p>
-                  <div class="addthis_inline_share_toolbox"></div>
+                  <!-- <div class="addthis_inline_share_toolbox"></div> -->
                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Comment on this
 </button>
