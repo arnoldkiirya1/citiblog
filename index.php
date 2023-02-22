@@ -45,15 +45,15 @@ $result=($page-1)*$post_per_page;
 <div class="card mb-3" style="max-width: 800px;">
 <a href="post.php?id=<?=$post['id']?>" style="text-decoration:none;color:black">
             <div class="row g-0">
-              <div class="col-md-5" style="background-image: url('images/<?=getPostThumb($db,$post['id'])?>');background-repeat: no-repeat">
+              <div class="col-md-5" style="background-image: url('images/<?=getPostThumb($db,$post['id'])?>');background-repeat: no-repeat;">
                 <!-- <img src=""> -->
               </div>
-              <div class="col-md-7">
-                <div class="card-body">
+              <div class="col-md-7" style="Overflow:hidden; max-height: 200px; text-overflow: ellipsis; display: block">
+                <div class="card-body" style="text-overflow: ellipsis; display: block">
                   <h5 class="card-title"><?=$post['title']?></h5>
-                  
-                  <p class="card-text text-truncate"><?=$post['content']?></p>
-                  <p class="card-text"><small class="text-muted">Posted on <?=date('F jS, Y',strtotime($post['created_at']))?></small></p>
+                  <small class="text-muted" style="color:blue">Click to view more</small>
+                  <p class="card-text" style="position: relative !important"><small class="text-muted">Posted on <?=date('F jS, Y',strtotime($post['created_at']))?></small></p>
+                  <p class="d-inline-block text-truncate"><?=$post['content']?></p>
                 </div>
               </div>
             </div>
